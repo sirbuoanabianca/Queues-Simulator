@@ -1,0 +1,76 @@
+
+TIME 0
+Waiting clients:
+(id=4 arrivalT=1 procT=1)
+(id=2 arrivalT=2 procT=2)
+(id=3 arrivalT=2 procT=4)
+(id=1 arrivalT=4 procT=2)
+(id=5 arrivalT=4 procT=4)
+Coada 0: closed
+Coada 1: closed
+Coada 2: closed
+
+TIME 1
+Waiting clients:
+(id=2 arrivalT=2 procT=2)
+(id=3 arrivalT=2 procT=4)
+(id=1 arrivalT=4 procT=2)
+(id=5 arrivalT=4 procT=4)
+Coada 0: (id=4 arrivalT=1 procT=1)
+Coada 1: closed
+Coada 2: closed
+
+TIME 2
+Waiting clients:
+(id=1 arrivalT=4 procT=2)
+(id=5 arrivalT=4 procT=4)
+Coada 0: (id=2 arrivalT=2 procT=2)
+Coada 1: (id=3 arrivalT=2 procT=4)
+Coada 2: closed
+
+TIME 3
+Waiting clients:
+(id=1 arrivalT=4 procT=2)
+(id=5 arrivalT=4 procT=4)
+Coada 0: (id=2 arrivalT=2 procT=1)
+Coada 1: (id=3 arrivalT=2 procT=3)
+Coada 2: closed
+
+TIME 4
+Waiting clients:
+No more waiting clients!
+Coada 0: (id=1 arrivalT=4 procT=2)
+Coada 1: (id=3 arrivalT=2 procT=2)
+Coada 2: (id=5 arrivalT=4 procT=4)
+
+TIME 5
+Waiting clients:
+No more waiting clients!
+Coada 0: (id=1 arrivalT=4 procT=1)
+Coada 1: (id=3 arrivalT=2 procT=1)
+Coada 2: (id=5 arrivalT=4 procT=3)
+
+TIME 6
+Waiting clients:
+No more waiting clients!
+Coada 0: closed
+Coada 1: closed
+Coada 2: (id=5 arrivalT=4 procT=2)
+
+TIME 7
+Waiting clients:
+No more waiting clients!
+Coada 0: closed
+Coada 1: closed
+Coada 2: (id=5 arrivalT=4 procT=1)
+
+TIME 8
+Waiting clients:
+No more waiting clients!
+Coada 0: closed
+Coada 1: closed
+Coada 2: closed
+
+Average waiting time=0.0
+Average service time=2.6
+Peak hour=4
